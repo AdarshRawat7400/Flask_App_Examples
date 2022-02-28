@@ -1,0 +1,19 @@
+<!doctype html>  
+<html>  
+   <body>
+       <center>
+      <h1><p><strong>Thanks for the registration. Confirm your details</strong></p></h1>
+      <h3>
+      <table border =10 style="width:50%">  
+          
+         {% for key, value in data.items() %}  
+            <tr>  
+               <th> {{ key }} </th>  
+               <td> {{ value }} </td>  
+            </tr>  
+         {% endfor %}  
+      </table>
+    </h3>
+    </center>    
+   </body>  
+</html>  
